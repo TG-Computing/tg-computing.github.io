@@ -1,0 +1,41 @@
+* {
+    font-family: "Oxanium";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #AAA1C8;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    background-color: #192A51;
+    width: 100%;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #AAA1C8;
+    transition: color 0.2s ease-out;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #192A51;
+}
+
+#navigation a  {
+    font-size: 30px;
+}
+

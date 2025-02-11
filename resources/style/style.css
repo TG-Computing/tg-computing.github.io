@@ -22,12 +22,12 @@ body {
     width: 100%;
 }
 
-#services, #experiences, #about, #contact {
+#navigation a {
     color: white;
     text-decoration: none;
 }
 
-#services:hover, #experiences:hover, #about:hover, #contact:hover {
+#navigation a:hover {
     color: #AAA1C8;
     transition: color 0.2s ease-out;
 }

@@ -32,6 +32,10 @@ body {
     transition: color 0.2s ease-out;
 }
 
+#services:hover #service_dropdown {
+    display: block;
+}
+
 #navigation {
     display: flex;
     align-items: center;

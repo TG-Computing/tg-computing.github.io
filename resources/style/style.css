@@ -22,12 +22,12 @@ body {
     width: 100%;
 }
 
-.links {
+#services, #experiences, #about, #contact {
     color: white;
     text-decoration: none;
 }
 
-.links:hover {
+#services:hover, #experiences:hover, #about:hover, #contact:hover {
     color: #AAA1C8;
     transition: color 0.2s ease-out;
 }

@@ -52,6 +52,16 @@ body {
     font-size: 20px;
 }
 
+#service_dropdown {
+    position: absolute;
+    background-color: #AAA1C8;
+    border: 1px solid #192A51;
+    color: #192A51;
+    font-size: 20px;
+    min-width: 160px;
+    display: block;
+}
+
 
 @media only screen and (max-width: 440px) {
     #navigation_mobile {

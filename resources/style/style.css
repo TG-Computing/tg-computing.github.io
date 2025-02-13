@@ -11,6 +11,7 @@ body {
 
 #navigation_mobile {
     display: none;
+    background-color: #192A51;
 }
 
 #footer {
@@ -33,7 +34,7 @@ body {
 }
 
 
-#navigation {
+#navigation, #hoverable {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -52,14 +53,28 @@ body {
     font-size: 20px;
 }
 
-#service_dropdown {
+ #service_dropdown {
     position: absolute;
+    top: 100px;
     background-color: #AAA1C8;
     border: 1px solid #192A51;
     color: #192A51;
-    font-size: 20px;
-    min-width: 160px;
-    display: block;
+    font-size: 16px;
+    min-width: 180px;
+    display: none;
+}
+
+#service_dropdown a:hover {
+    color: #192A51;
+}
+
+#hoverable {
+    height: 100px;
+}
+
+#hoverable:hover #service_dropdown {
+    display: inline-block;
+    padding: 10px;
 }
 
 

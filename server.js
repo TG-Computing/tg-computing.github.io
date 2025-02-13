@@ -54,6 +54,18 @@ http.createServer((req, res) => {
                 res.end();
             }
         });
+    } else if (req.url == "/resources/pages/services.html") {
+        fs.readFile(path.join(__dirname, "resources", "pages", "services.html"), (err, data) => {
+            if (err){
+                res.writeHead(404, "Error")
+                res.write("<h1>404 Error, file not found</h1>")
+                res.end();
+            } else {
+                res.writeHead(200, {"Content-Type": "text/javascript"});
+                res.write(data);
+                res.end();
+            }
+        });
     } else {
         res.writeHead(404, "Error")
         res.write("<h1>404 Error, file not in directory</h1>")
